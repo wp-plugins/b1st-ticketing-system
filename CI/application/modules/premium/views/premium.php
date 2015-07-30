@@ -143,15 +143,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
 	    <td>
 		<?php
-		$companychk=fetchmod('company');
-		$companyins=fetchIns('company');
+		$companychk=B1st_fetchmod('company');
+		$companyins=B1st_fetchIns('company');
 		?>
                 <p>Company Module</p>
 		<?php
 		if($companyins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -185,15 +185,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         <tr>
 	    <td>
 		<?php
-		$prodchk=fetchmod('product');
-		$prodins=fetchIns('product');
+		$prodchk=B1st_fetchmod('product');
+		$prodins=B1st_fetchIns('product');
 		?>
                 <p>Product Module</p>
 		<?php
 		if($prodins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="return moduleinstall('product','install')">Install It </a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="return moduleinstall('product','install')">Install It</a></span></p>
 		<?php
 		}
 		?>
@@ -229,15 +229,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$faqchk=fetchmod('faq');
-		$faqins=fetchIns('faq');
+		$faqchk=B1st_fetchmod('faq');
+		$faqins=B1st_fetchIns('faq');
 		?>
                 <p>FAQ Module</p>
 		<?php
 		if($faqins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -272,15 +272,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
         <tr>
             <td>
 		<?php
-		$kbcatchk=fetchmod('knowledge_base_cat');
-		$kbcatins=fetchIns('knowledge_base_cat');
+		$kbcatchk=B1st_fetchmod('knowledge_base_cat');
+		$kbcatins=B1st_fetchIns('knowledge_base_cat');
 		?>
                 <p>Knowledge Base Module</p>
 		<?php
 		if($kbcatins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -315,15 +315,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$backupchk=fetchmod('backup');
-		$backupins=fetchIns('backup');
+		$backupchk=B1st_fetchmod('backup');
+		$backupins=B1st_fetchIns('backup');
 		?>
                 <p>Backup Module</p>
 		<?php
 		if($backupins==0)
 		{
 		?>
-        <p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -357,15 +357,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$chatchk=fetchmod('chat');
-		$chatins=fetchIns('chat');
+		$chatchk=B1st_fetchmod('chat');
+		$chatins=B1st_fetchIns('chat');
 		?>
                 <p>Chat Module</p>
 		<?php
 		if($chatins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -399,15 +399,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$reponsetimechk=fetchmod('response_time');
-		$reponsetimeins=fetchIns('response_time');
+		$reponsetimechk=B1st_fetchmod('response_time');
+		$reponsetimeins=B1st_fetchIns('response_time');
 		?>
                 <p>Response Time Module</p>
 		<?php
 		if($reponsetimeins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -441,15 +441,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$opswatchk=fetchmod('opswat');
-		$opswatins=fetchIns('opswat');
+		$opswatchk=B1st_fetchmod('opswat');
+		$opswatins=B1st_fetchIns('opswat');
 		?>
                 <p>OPSWAT Module</p>
 		<?php
 		if($opswatins==0)
 		{
 		?>
-        <p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -483,15 +483,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$akismetchk=fetchmod('akismet');
-		$akismetins=fetchIns('akismet');
+		$akismetchk=B1st_fetchmod('akismet');
+		$akismetins=B1st_fetchIns('akismet');
 		?>
                 <p>AKISMET Module</p>
 		<?php
 		if($akismetins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -519,21 +519,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		?>
             </td>
             <td>
-                <b><u>AKISMET</u></b> is used to check the mail attachments and file uploaded. It checks whether the file uploaded or attached is a spam or not, if enabled.
+                <b><u>AKISMET</u></b> is used to check the mail and ticket content. It checks whether the content is spam or not, if enabled.
             </td>
         </tr>
 	<tr>
             <td>
 		<?php
-		$emailmodchk=fetchmod('email_mod');
-		$emailmodins=fetchIns('email_mod');
+		$emailmodchk=B1st_fetchmod('email_mod');
+		$emailmodins=B1st_fetchIns('email_mod');
 		?>
                 <p>Email Ticket Module</p>
 		<?php
 		if($emailmodins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -567,15 +567,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$twittermodchk=fetchmod('twitter');
-		$twittermodins=fetchIns('twitter');
+		$twittermodchk=B1st_fetchmod('twitter');
+		$twittermodins=B1st_fetchIns('twitter');
 		?>
                 <p>Twitter Module</p>
 		<?php
 		if($twittermodins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -609,15 +609,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$mobverchk=fetchmod('mob_ver');
-		$mobverins=fetchIns('mob_ver');
+		$mobverchk=B1st_fetchmod('mob_ver');
+		$mobverins=B1st_fetchIns('mob_ver');
 		?>
                 <p>Mobile Verification Module</p>
 		<?php
 		if($mobverins==0)
 		{
 		?>
-		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('http://b1st.systems/index.html')">Get Premium</a></span></p>
+		<p><span class="gt-it-btn"><a style="color: #0074A2;" href="javascript:void(0);" onclick="window.open('https://sites.fastspring.com/egyfirst/instant/b1st_ticketing_system')">Get Premium</a></span></p>
 		<?php
 		}
 		?>
@@ -651,8 +651,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	<tr>
             <td>
 		<?php
-		$statisticschk=fetchmod('statistics');
-		$statisticsins=fetchIns('statistics');
+		$statisticschk=B1st_fetchmod('statistics');
+		$statisticsins=B1st_fetchIns('statistics');
 		?>
                 <p>Statistics Module</p>
 		<?php
@@ -694,8 +694,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             <td>
                 <p>Rating</p>
 		<?php
-		$ratingchk=fetchmod('rating');
-		$ratingins=fetchIns('rating');
+		$ratingchk=B1st_fetchmod('rating');
+		$ratingins=B1st_fetchIns('rating');
 		?>
 		<?php
 		if($ratingins==0)
@@ -749,7 +749,7 @@ function togglemod(faqchk,modname)
 		if (data)
 		{
 			$('.mask_div').fadeOut();
-			window.parent.location.href='<?= WPADMINURL;?>admin.php?page=premium';
+			window.parent.location.href='<?= WPADMINURL;?>admin.php?page=b1st-premium';
 		}
 	});
 }
@@ -766,7 +766,7 @@ function moduleinstall(modname,functype)
 				if (data)
 				{
 					$('.mask_div').fadeOut();
-					window.parent.location.href='<?= WPADMINURL;?>admin.php?page=premium';
+					window.parent.location.href='<?= WPADMINURL;?>admin.php?page=b1st-premium';
 				}
 			})
 		}
@@ -780,7 +780,7 @@ function moduleinstall(modname,functype)
 		if (data)
 		{
 			$('.mask_div').fadeOut();
-			window.parent.location.href='<?= WPADMINURL;?>admin.php?page=premium';
+			window.parent.location.href='<?= WPADMINURL;?>admin.php?page=b1st-premium';
 		}
 	})
 }
