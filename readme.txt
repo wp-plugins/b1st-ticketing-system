@@ -1,4 +1,5 @@
 # B1st-Ticketing-System #
+Contributors: egyfirst, m2a
 Donate link: http://b1st.systems/
 Tags: ticket system, support system, helpdesk, ticketing system, contact form, help, contacts, support, CRM, FAQ, messages.
 Requires at least: 4.0.0
