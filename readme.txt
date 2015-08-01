@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ## Description ##
 Your search for the ideal ticket system plugin has come to an end. We offer a product that is not only easy-to-use but is constantly developing to help you meet your changing needs. We offer you the control, protection, and flexibility that you and your company desire and deserve. Give our product a try, and you will never want to try another ticket system plugins again.
 
-[Visit our plugin homepage](http://b1st.systems/ "B1st.Systems Ticketing for Wordpress")
+[Visit our plugin demonstration page](http://b1st.systems/demo/wordpress/b1st/ "Full demo of premium version")
 
 ----------
  
